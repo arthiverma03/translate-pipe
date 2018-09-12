@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class SampleComponent {
 
   constructor(private translationService: TranslationService) { }
+  birthday = new Date(1988, 3, 15); // April 15, 1988
+  monthlyCost: number= 10;
 
 }
